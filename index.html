@@ -3,27 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio | flyfighter1203</title>
-    <link rel="stylesheet" href="CSS/style.css">
+    <title>Nathan Niestroy | Projects Portfolio</title>
+    <link rel="stylesheet" href="CSS/style.css"> <!-- Linking external CSS file -->
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#intro">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#current">Current Projects</a></li>
-                <li><a href="#past">Past Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <main>
-        <section id="intro" class="container">
-            <img src="Images/80sprogrammer.jpg" alt="Display picture of 80s programmer">
-            <h2>My name is flyfighter1203</h2>
-        </section>
-    </main>
+
+    <div class="nav">
+        <a class="nav-link active" href="#about">About</a> <!-- Link to About tab -->
+        <a class="nav-link" href="#projects">Projects</a> <!-- Link to Projects tab -->
+    </div>
+
+    <!-- Content section for About tab -->
+    <div id="about" class="tab-content">
+        <h2>About This Website</h2>
+        <p>This website serves as a showcase for both my current projects and past work in Computer Science, IT, and Cybersecurity. It includes projects like this website itself, where I've learned how to host web pages on GitHub and gained hands-on experience coding in HTML, JavaScript, and CSS. This site also highlights previous projects that have contributed to my growth and expertise in these fields.</p>
+    </div>
+
+    <!-- Content section for Projects tab -->
+    <div id="projects" class="tab-content">
+        <!-- Placeholder for projects content, you can add your project details here -->
+        <h2>Projects</h2>
+        <p>Content related to projects will go here...</p>
+    </div>
+
+    <!-- Link to external JavaScript file -->
+    <script src="js/script.js"></script> <!-- Linking external JavaScript file -->
+
 </body>
 </html>
